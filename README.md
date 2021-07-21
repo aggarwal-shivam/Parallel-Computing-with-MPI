@@ -16,4 +16,17 @@ In this assignment, we implemented the Halo Exhange program with the help of MPI
   
 We compared the performance of each of the three methods, and presented a detailed study about the same. More details can be found in the Assignment 1 directory.
 ### 2. Assignment 2
+
+In this assignment, we tried different optimizations to optimize the performance of MPI collective operations by making use of the network topology of 'csews' cluster at IITK. We optimized the following collective operations:
+- MPI_Bcast
+- MPI_Reduce
+- MPI_Gather
+- MPI_Alltoallv
+
+We compared the effects of different optimizations and presented our results. More details can be found in the Assignment 2 directory.
+
 ### 3. Assignment 3
+
+In this assignment, we obtained the data using the sequential I/O and distributed this data to different processes for further computation. We experimented with different data distribution startegies, and studied the scaling of the code on different number of processors. 
+
+More details can be found in the Assignment 3 directory.
